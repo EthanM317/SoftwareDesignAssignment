@@ -8,7 +8,12 @@ public class main{
         String name = reader.next();
 
         System.out.println("Hello " + name + "!");
-        
+              
+        System.out.print("Do you like coding? Enter y or n: ");
+        char answer = reader.next().charAt(0);
+        reader.close();
+
+        System.out.println("You entered: " + answer);
 
     }
 }
