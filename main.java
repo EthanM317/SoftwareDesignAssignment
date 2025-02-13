@@ -13,7 +13,7 @@ public class main{
         char answer = reader.next().charAt(0);
         reader.close();
 
-        System.out.println("You entered: " + answer);
+        System.out.println("You entred: " + answer);
 
     }
 }
